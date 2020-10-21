@@ -54,6 +54,7 @@ public class KhachSan {
             for (Nguoi nguoi: lists) {
                 if (nguoi.getCmnd().equals(cmnd)) {
                     double total = nguoi.getGiaPhongTro() * nguoi.getSoNgayTro();
+                    System.out.println(nguoi.toString());
                     System.out.println("So tien can phai tra la: " + total);
                 }
             }
